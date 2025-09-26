@@ -105,5 +105,32 @@ Always use **sudo**:sudo python3 bluetooth_jammer.py
 - No devices: Ensure targets are discoverable (pairing mode). 🔍
 - HCI0 down: Tool auto-fixes, or manual: `sudo hciconfig hci0 up`.
 
-### Example Output 🎥
+
+## ⚠️ Disclaimer
+This tool is intended **only for educational and lawful use** on devices **you own** or have **explicit permission** to manage. The creator and contributors are **not responsible** for any misuse.  
+Stay ethical — **Firewall Breaker** community promotes **learning & safety**, not harm.
+
+---
+
+👨‍💻 **Author**  
+- Made with ❤️ by **thakur2309** 
+- Name: **Alok Thakur**  
+- YouTube: [🔥 Firewall Breaker](https://www.youtube.com/@FirewallBreaker09)
+
+---
+## 📌 Contact Me  
+
+<a href="https://youtube.com/@firewallbreaker09">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+</a>  
+<br>  
+
+<a href="https://github.com/thakur2309?tab=repositories">
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>  
+<br>  
+
+<a href="https://whatsapp.com/channel/0029VbAiqVMKLaHjg5J1Nm2F">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
+</a>
 
