@@ -8,6 +8,11 @@
 
 > **⚠️ Legal Disclaimer**: This tool is for educational use in controlled environments (e.g., your own devices). Using it without permission is illegal and unethical. The author isn’t responsible for misuse. Follow local laws (e.g., FCC rules)! 🚨
 
+### Example Output 🎥
+![Instagram Image ](https://raw.githubusercontent.com/thakur2309/Camhack/refs/heads/main/Screenshot_2025_0412_105039.jpg)
+
+<h3 align="center"> Preview!</h3>
+
 ## Features 🌟
 - **Device Scanning**: Uses `hcitool` to find nearby Bluetooth devices with MACs and names. 🔍
 - **Multi-Threaded Attacks**: Floods multiple devices at once with parallel threads. 💥
