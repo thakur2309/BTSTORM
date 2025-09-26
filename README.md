@@ -9,7 +9,7 @@
 > **⚠️ Legal Disclaimer**: This tool is for educational use in controlled environments (e.g., your own devices). Using it without permission is illegal and unethical. The author isn’t responsible for misuse. Follow local laws (e.g., FCC rules)! 🚨
 
 ### Example Output 🎥
-![Instagram Image ](https://raw.githubusercontent.com/thakur2309/Camhack/refs/heads/main/Screenshot_2025_0412_105039.jpg)
+![Instagram Image ](https://raw.githubusercontent.com/thakur2309/BTSTORM/refs/heads/main/IMG-20250926-WA0013.jpg)
 
 <h3 align="center"> Preview!</h3>
 
@@ -49,7 +49,7 @@ Yes, BTStorm **works on Termux** with some tweaks! Requires **root access** (e.g
 6. **Run Script**: `git clone https://github.com/thakur2309/BTSTORM.git`
 `cd BTSTORM`
 
-- Use root: `tsu -c python bluetooth_jammer.py`.
+- Use root: `tsu -c python bluetooth-jammer.py`.
 
 **Note**: Non-rooted Termux may fail with "Permission denied". Success: 70-80% on rooted devices. Test on your speaker/headphones! 🎧
 
@@ -68,7 +68,7 @@ git clone https://github.com/thakur2309/BTSTORM.git
 cd BTSTORM
 
 # run script
-sudo python bluetooth_jammer.py
+sudo python bluetooth-jammer.py
 ```
 
 #### On Arch Linux:
@@ -82,7 +82,7 @@ sudo pacman -Syu python bluez
 - l2ping -h          # Should show help
 
 ### Step 3: Run the Tool
-Always use **sudo**:sudo python3 bluetooth_jammer.py
+Always use **sudo**:sudo python3 bluetooth-jammer.py
 
 
 - Enjoy the cool banner and credits! 🎨
@@ -104,7 +104,7 @@ Always use **sudo**:sudo python3 bluetooth_jammer.py
 ### Advanced Tips 💡
 - **Force Disconnect**: Retries disconnect twice (restarts Bluetooth if needed).
 - **Packet Tuning**: Edit `attack_device()`: Boost `-s 600` for stronger flood (use wisely). ⚡
-- **Logging**: Save logs: `sudo python3 bluetooth_jammer.py > output.log`.
+- **Logging**: Save logs: `sudo python3 bluetooth-jammer.py > output.log`.
 - **Troubleshooting**:
 - "Operation not permitted": Use `sudo` or restart: `sudo systemctl restart bluetooth`.
 - No devices: Ensure targets are discoverable (pairing mode). 🔍
