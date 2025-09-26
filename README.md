@@ -82,7 +82,7 @@ sudo pacman -Syu python bluez
 - l2ping -h          # Should show help
 
 ### Step 3: Run the Tool
-Always use **sudo**:sudo python3 bluetooth-jammer.py
+Always use **sudo**:`sudo python3 bluetooth-jammer.py`
 
 
 - Enjoy the cool banner and credits! 🎨
