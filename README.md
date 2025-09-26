@@ -41,8 +41,8 @@ Yes, BTStorm **works on Termux** with some tweaks! Requires **root access** (e.g
 - Install BlueZ via chroot (advanced): `apt install bluez` (Ubuntu chroot).
 - Or try: `pkg install bluez` (if available, experimental). ⚙️
 5. **Bluetooth Permissions**: Enable Bluetooth in settings. For root: `su -c hciconfig hci0 up`. 🔐
-6. **Run Script**: git clone https://github.com/thakur2309/BTSTORM.git
-cd BTSTORM
+6. **Run Script**: `git clone https://github.com/thakur2309/BTSTORM.git`
+`cd BTSTORM`
 
 - Use root: `tsu -c python bluetooth_jammer.py`.
 
@@ -51,13 +51,25 @@ cd BTSTORM
 **Unsupported**: Windows/macOS (Linux-only due to `hcitool`/`l2ping`). ❌
 
 ## Installation 🛠️
+## 🐧 Linux Setup (Kali/Ubuntu/Debian)
+```bash
+sudo apt update
+# requirements 
+sudo apt install bluez git
 
-### Step 1: Clone the Repo
-clone https://github.com/thakur2309/BTSTORM.git
+# (Recommended) Its work only root  permission
+
+git clone https://github.com/thakur2309/BTSTORM.git
 cd BTSTORM
 
+# run script
+sudo python bluetooth_jammer.py
+```
+
 #### On Arch Linux:
+```bash
 sudo pacman -Syu python bluez
+```
 
 #### Verify:
 - python3 --version  # Should be 3.8+
